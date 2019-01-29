@@ -62,7 +62,7 @@ class TicTacToe
   end
   
   def current_player
-    player_turn = turn_count(@board).even? ? "X" : "O"
+    player_turn = turn_count.even? ? "X" : "O"
     return player_turn
   end
   
